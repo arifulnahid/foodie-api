@@ -29,6 +29,8 @@ SECRET_KEY = 'django-insecure-^w!d5#gb0gopnzii420fi(=cs*5a^#20l1-25h*q6$gjf@0h77
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
+CSRF_TRUSTED_ORIGINS = ['https://drf-foodie.onrender.com', 'https://foodie-api-1nof.onrender.com']
+
 
 CORS_ALLOW_ALL_ORIGINS = True 
 
